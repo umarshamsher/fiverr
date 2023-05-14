@@ -1,0 +1,26 @@
+.trustBy{
+
+    background-color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    img::first{
+        font-size: 32px;
+    }
+    
+.container{
+    width: var(--container-sm-width);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 1.2rem;
+    color: var(--color-lightgray);
+    font-weight: 500;
+}
+img{
+    width: 50px;
+    object-fit: contain;
+}
+
+}

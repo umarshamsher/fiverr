@@ -1,0 +1,35 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+  
+}
+    
+:root{
+    // main container
+    --container-width : 1140px;
+    --container-sm-width : 760px;
+    --transition: 0.5 all ease;
+    --font-links : 'Montserrat, sans-serif';
+    --color-green : #013914;
+    --color-dot : #1dbf73;
+    --color-white : #fff;
+    --color-black : #000;
+    --color-message :royalblue;
+    --color-gray : #808080;
+    --color-lightgray : #d3d3d3;
+    --color-star-review:#ffc100;
+    --color-bottom-hr: rgb(237, 235, 235 );
+    
+
+} 

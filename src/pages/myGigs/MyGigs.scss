@@ -1,0 +1,57 @@
+.myGigs{
+
+    display: flex;
+    justify-content: center;
+
+    .container{
+
+        width: var(--container-width);
+        padding: 50px 0px;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            button{
+                background-color: var(--color-dot);
+                color: 	var(--color-white);
+                border: none;
+                border-radius: 5px;
+                font-weight: 500;
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            th{
+                text-align: left;
+            }
+            tr{
+                height: 50px;
+
+                td{
+                    .img{
+                        width: 50px;
+                        height: 50px;
+                        object-fit: cover;
+                    }
+                    .delete{
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                }
+
+                &:nth-child(even){
+                    background-color: rgb(237, 245, 237);
+                }
+            }
+            
+
+           
+        }
+    }
+}
